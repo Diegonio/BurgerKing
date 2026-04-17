@@ -3,10 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    //imagen en la parte superior de la pestaña
+    <title>Burger King</title>
     <link rel="icon" type="image/x-icon" href="imgMenu/Burger_King_Logo.svg">
+    <link rel="stylesheet" type="text/css" href="css/Menu.css">
 </head>
 <body>
+    <nav>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu-list" id="menuList">
+                <li><a href="Pag1.html">Página 1</a></li>
+                <li><a href="Pag2.html">Página 2</a></li>
+                <li><a href="Pag3.html">Página 3</a></li>
+            </ul>
+        </div>
+        <img src="imgMenu/letras_burgerking.png" alt="" width="200" height="100">
+    </nav>
+    <script src="js/menu.js"></script>
 </body>
 </html>
