@@ -1,7 +1,6 @@
 
 nav {
     background-color: #fad9c0;
-    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,9 +49,9 @@ nav {
     background-color: #fff;
     border: 1px solid #ccc;
     width: 200px;
-    transform: translateX(-100%);
+    transform: translateX(-120%);
     transition: transform 0.3s ease;
-    z-index: 1000;
+    z-index: 9999;
 }
 
 .menu-list.active {
